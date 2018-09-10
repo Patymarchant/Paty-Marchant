@@ -17,16 +17,15 @@ h1, h2, h3, h4{
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
+	color:rgba(255,255,255);
 	text-shadow: 1px 1px 0 #999;
 	text-align:center;
 }
 
 h2{
 	letter-spacing:0.02em;
-	color:rgba(71,152,157,0.6);
+	color:rgba(0,0,0);
 	padding:0.2em 0;
-	text-shadow: 1px 1px 0 #999;
 	text-align:center;
 }
 
@@ -75,8 +74,7 @@ video{
 	}
 
 .dupla{
-	width:98%;
-	padding:2%;
+	width:100%;
 	float:left;
 	background-color:red;
 	}
@@ -145,7 +143,7 @@ video{
 }
 
 .item:hover figure img{
-	transform:scale(1.25);
+	transform:scale(1.10);
 	filter: grayscale(0);
 	transition:all ease-out 0.5s;
 }
